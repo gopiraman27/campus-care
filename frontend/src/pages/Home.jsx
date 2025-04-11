@@ -1,8 +1,9 @@
 import React from 'react';
+import Header from '../components/Header';
 function Home(){
     return(
         <div>
-            <h1 className="text-2xl font-bold">Welcome to Campus Care</h1>;
+            <Header/>
         </div>
     );
 }
