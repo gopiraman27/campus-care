@@ -8,9 +8,13 @@ function NavBar(){
     const [token, setToken] = useState(true);
     return(
         <div className='flex justify-between items-center text-sm py-4  border-b border-b-gray-400'>
-            <img src={assets.logo}
+            {/* <img src={assets.logo}
                     alt="LOGO"
-                    className='w-44 cursor-pointer'/>
+                    className='w-44 cursor-pointer'/> */}
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
+                <span className="text-[#192a5e]">Campus Care</span>
+            </h1>
+
             <ul className='hidden md:flex gap-5  font-semibold'>
                 <li className='py-1'>
                 <NavLink to="/" className="block">
