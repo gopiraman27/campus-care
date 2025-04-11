@@ -9,10 +9,12 @@ import MyProfile from './pages/MyProfile'
 import NotFound from './pages/NotFound'
 import Appointments from './pages/Appointments'
 import MyAppointment from './pages/MyAppointment'
+import NavBar from './components/NavBar'
 
 const App = () => {
   return (
-    <div>
+    <div className='max-4 sm:mx-[10%]' >
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
