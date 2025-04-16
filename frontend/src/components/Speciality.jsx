@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Speciality = () => {
   return (
-    <div className="flex flex-col items-center gap-4 py-16 text-[#262626]">
+    <div id ="speciality" className="flex flex-col items-center gap-4 py-16 text-[#262626]">
       <p className="text-3xl font-medium">Find by Speciality</p>
       <p className="sm:w-1/3 text-center text-sm">
         Simply browse through our extensive list of trusted doctors, schedule
