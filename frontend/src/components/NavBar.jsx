@@ -11,7 +11,7 @@ function NavBar(){
             {/* <img src={assets.logo}
                     alt="LOGO"
                     className='w-44 cursor-pointer'/> */}
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
+            <h1 onClick={()=>navigate("/")} className="text-4xl md:text-5xl font-bold tracking-tight cursor-pointer">
                 <span className="text-[#192a5e]">Campus Care</span>
             </h1>
 
